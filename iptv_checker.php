@@ -1,4 +1,5 @@
-<?php
+<?php //Powered by Aleksejqa
+
 $m3u8_for_check="big.m3u8";
 $timeoutsec=3;
 
