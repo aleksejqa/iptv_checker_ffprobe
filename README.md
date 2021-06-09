@@ -2,6 +2,6 @@
 
 apt-get update
 
-apt-get install ffmpeg
+apt-get install ffmpeg -y
 
 php iptv_checker.php
