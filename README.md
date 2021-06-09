@@ -23,6 +23,8 @@ php iptv_checker.php
 
 If there are working channels in the sheet, the file **big.m3u8_good.m3u8** will be created
 
+Do not forget about the write permissions for the folder where the script is running
+
 
 ***Powered by Aleksejqa***
 
@@ -51,6 +53,8 @@ $m3u8_for_check="big.m3u8";
 php iptv_checker.php
 ```
 
-Если в листе есть рабочие каналы, будет создан файл big.m3u8_good.m3u8
+Если в листе есть рабочие каналы, будет создан файл **big.m3u8_good.m3u8**
+
+Не забывайте про разрешения на запись для папки в которой работает скрипт
 
 Заряжен Алексейкой :)
