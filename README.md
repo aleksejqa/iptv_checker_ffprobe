@@ -25,3 +25,30 @@ If there are working channels in the sheet, the file **big.m3u8_good.m3u8** will
 
 
 ***Powered by Aleksejqa***
+---
+
+У вас уже должен быть установлен php, моя версия PHP-5.6.40
+
+Первым шагом является установка ffmpeg
+
+```html
+apt-get update
+
+apt-get install ffmpeg -y
+```
+
+Во второй строке введите имя файла, который вы хотите проверить. А также положил его рядом со скриптом.
+
+```html
+$m3u8_for_check="big.m3u8";
+```
+
+Если все получилось, то выполните команду в консоли
+
+```html
+php iptv_checker.php
+```
+
+Если в листе есть рабочие каналы, будет создан файл big.m3u8_good.m3u8
+
+Работает от Алексея
